@@ -1,16 +1,7 @@
 import {
-	Button,
 	Card,
-	Flex,
-	FormControl,
 	Grid,
 	GridItem,
-	HStack,
-	Input,
-	Image,
-	Spacer,
-	Switch,
-	Text,
 	useColorMode,
 } from "@chakra-ui/react";
 import CardDisplay from "./components/cardDisplay";
