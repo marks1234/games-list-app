@@ -57,6 +57,27 @@ const CardDisplay = () => {
 			heading: "Cyberpunk 2077",
 			buttonText: "Click Me",
 		},
+		{
+			id: 7,
+			imageUrl: "src\\imgs\\cyberpunk.jpg",
+			imageAlt: "The amazing world of Cyberpunk 2077",
+			heading: "Cyberpunk 2077",
+			buttonText: "Click Me",
+		},
+		{
+			id: 8,
+			imageUrl: "src\\imgs\\cyberpunk.jpg",
+			imageAlt: "The amazing world of Cyberpunk 2077",
+			heading: "Cyberpunk 2077",
+			buttonText: "Click Me",
+		},
+		{
+			id: 9,
+			imageUrl: "src\\imgs\\cyberpunk.jpg",
+			imageAlt: "The amazing world of Cyberpunk 2077",
+			heading: "Cyberpunk 2077",
+			buttonText: "Click Me",
+		},
 	];
 
 	const renderCards = () => {
