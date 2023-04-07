@@ -1,12 +1,15 @@
 import {
+	Button,
 	Card,
 	Grid,
 	GridItem,
+	Image,
 	useColorMode,
 } from "@chakra-ui/react";
 import CardDisplay from "./components/cardDisplay";
 import CardFilter from "./components/CardFilter";
 import SearchBar from "./components/SearchBar";
+import GameGenres from "./components/GameGenres";
 
 function App() {
 	const { colorMode, toggleColorMode } = useColorMode();
@@ -53,9 +56,11 @@ function App() {
 			<GridItem pl='2' area={"header"}>
 				<CardFilter />
 			</GridItem>
-
 			<GridItem pl='2' bg='pink.300' area={"nav"}>
-				Nav
+				{/* <GameGenres /> */}
+				<Button h={"auto"} p={1}>
+					Action
+				</Button>
 			</GridItem>
 			<GridItem pl='2' area={"main"}>
 				<Card marginRight={3} paddingX={3} paddingY={1} borderRadius='lg'>
